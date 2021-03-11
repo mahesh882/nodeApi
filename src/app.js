@@ -7,7 +7,6 @@ const app = express();
 const PORT = 5000;
 
 connect();
-
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(logger('dev'));
